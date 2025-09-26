@@ -45,9 +45,8 @@ export default function Contact() {
                     })
                 }
             </ul>
-            
-
-
+            <input type="text" placeholder="type" onChange={(e)=>{setText(e.target.value)}}/>
+            <button onClick={()=>{handleSubmit();}}> submit </button>
         </div>
     );
 }
